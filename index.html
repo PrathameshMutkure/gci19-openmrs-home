@@ -18,7 +18,7 @@
 <body>
 
     <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light ">
         <a class="navbar-brand" href="#"><img src="resources/omrs-logo.jpg" height=75 width=auto></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -98,10 +98,12 @@
                     </div>
                 </li>
             </ul>
+            <!-- Search -->
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
             </form>
+            <!-- Search -->
         </div>
     </nav>
     <!-- Nav Bar -->
@@ -155,50 +157,45 @@
         <br><br>
 
         <!-- Cards -->
-        <div class="row row-cols-1 row-cols-md-2">
+        <div class="card-deck">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img src="resources/all.jpeg" class="card-img-top" alt="Who are We?">
+                <div class="card-body">
+                    <h5 class="card-title">Who are we?</h5>
+                    <p class="card-text">The OpenMRS community is a worldwide network of volunteers from many different backgrounds including technology, health care, and international development. Together, we're working to build the world's largest and most flexible technology
+                        platform to support delivery of health care in some of the most challenging environments on the planet. No matter what your background or interest, we'd love to have you help us save lives with Health IT. Join us.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a></div>
+            </div>
 
-            <div class="col mb-4">
-                <div class="card shadow p-3 mb-5 bg-white rounded">
-                    <img src="resources/all.jpeg" class="card-img-top" alt="Who are We?">
-                    <div class="card-body">
-                        <h5 class="card-title">Who are we?</h5>
-                        <p class="card-text">The OpenMRS community is a worldwide network of volunteers from many different backgrounds including technology, health care, and international development. Together, we're working to build the world's largest and most flexible
-                            technology platform to support delivery of health care in some of the most challenging environments on the planet. No matter what your background or interest, we'd love to have you help us save lives with Health IT. Join us.</p>
-                    </div>
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img src="resources/where.png" class="card-img-top" alt="Where are We?">
+                <div class="card-body">
+                    <h5 class="card-title">Where are we?</h5>
+                    <p class="card-text">Although we started out to fix a database system in a single clinic in Kenya, in the last few years OpenMRS has grown dramatically to be used both in research and clinical settings in every corner of the planet. We're very proud of
+                        the innovators using OpenMRS to improve health care worldwide. Take a look where OpenMRS is being used.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img src="resources/demo.png" class="card-img-top" alt="Demo our software">
+                <div class="card-body">
+                    <h5 class="card-title">Demo our software</h5>
+                    <p class="card-text">Demo OpenMRS 2 and see the software from an implementers point of view. As a fully working installation, the demo allows you to get a better feel for what it's like to use the software. Log in to experience all of OpenMRS 2's many
+                        features.
+                    </p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
 
-            <div class="col mb-4">
-                <div class="card shadow p-3 mb-5 bg-white rounded">
-                    <img src="resources/where.png" class="card-img-top" alt="Where are We?">
-                    <div class="card-body">
-                        <h5 class="card-title">Where are we?</h5>
-                        <p class="card-text">Although we started out to fix a database system in a single clinic in Kenya, in the last few years OpenMRS has grown dramatically to be used both in research and clinical settings in every corner of the planet. We're very proud
-                            of the innovators using OpenMRS to improve health care worldwide. Take a look where OpenMRS is being used.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col mb-4">
-                <div class="card shadow p-3 mb-5 bg-white rounded">
-                    <img src="resources/demo.png" class="card-img-top" alt="Demo our software">
-                    <div class="card-body">
-                        <h5 class="card-title">Demo our software</h5>
-                        <p class="card-text">Demo OpenMRS 2 and see the software from an implementers point of view. As a fully working installation, the demo allows you to get a better feel for what it's like to use the software. Log in to experience all of OpenMRS 2's many
-                            features.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col mb-4">
-                <div class="card shadow p-3 mb-5 bg-white rounded">
-                    <img src="resources/download.png" class="card-img-top" alt="Download OpenMRS">
-                    <div class="card-body">
-                        <h5 class="card-title">Download OpenMRS</h5>
-                        <p class="card-text">Download our latest software offering. Choose between our Reference Application (includes a starter EMR) or our Platform (and build your own EMR), depending on your needs and experience. There are also a number of add-on modules
-                            to help OpenMRS work better for you.</p>
-                    </div>
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+                <img src="resources/download.png" class="card-img-top" alt="Download OpenMRS">
+                <div class="card-body">
+                    <h5 class="card-title">Download OpenMRS</h5>
+                    <p class="card-text">Download our latest software offering. Choose between our Reference Application (includes a starter EMR) or our Platform (and build your own EMR), depending on your needs and experience. There are also a number of add-on modules to
+                        help OpenMRS work better for you.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
                 </div>
             </div>
 
@@ -268,7 +265,7 @@
 
                 <!-- Blogs -->
                 <div class="col-sm">
-                    <h3>Recent Blog Posts</h3>
+                    <h4 class="h3">Recent Blog Posts</h4>
                     <hr>
 
                     <div class="blog-link">
@@ -307,7 +304,7 @@
                     </div>
 
                     <!-- Stay Connected -->
-                    <div class="dropdown" style="margin-top: 10%;">
+                    <div class="dropdown" style="margin-top: 10%; padding-bottom: 10%;">
                         <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Stay Connected
                         </a>
@@ -337,7 +334,7 @@
 
                 <!-- Other Sites -->
                 <div class="col-sm">
-                    <h3>Other OpenMRS Sites</h3>
+                    <h3 class="h3">Other OpenMRS Sites</h3>
                     <hr>
 
                     <div class="site-link">
