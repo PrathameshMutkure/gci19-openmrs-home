@@ -1,5 +1,12 @@
-footer {
+.footer {
     background-color: #2196F3;
+}
+
+.copyright {
+    background-color: #1C78C2;
+    color: white;
+    text-align: center;
+    padding: 2%;
 }
 
 .blog {
@@ -24,11 +31,4 @@ footer {
 
 .site-link a {
     color: white;
-}
-
-.copyright {
-    background-color: #1C78C2;
-    color: white;
-    text-align: center;
-    padding: 2%;
 }

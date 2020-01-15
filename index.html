@@ -8,6 +8,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Local CSS -->
     <link rel="stylesheet" href="style.css" type="text/css">
 
     <title>OpenMRS!</title>
@@ -102,6 +104,7 @@
             </form>
         </div>
     </nav>
+    <!-- Nav Bar -->
 
     <!-- Carousal -->
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -142,7 +145,9 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+    <!-- Carousal -->
 
+    <!-- Mian Body -->
     <div class="container">
 
         <br><br>
@@ -151,6 +156,7 @@
 
         <!-- Cards -->
         <div class="row row-cols-1 row-cols-md-2">
+
             <div class="col mb-4">
                 <div class="card shadow p-3 mb-5 bg-white rounded">
                     <img src="resources/all.jpeg" class="card-img-top" alt="Who are We?">
@@ -161,6 +167,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col mb-4">
                 <div class="card shadow p-3 mb-5 bg-white rounded">
                     <img src="resources/where.png" class="card-img-top" alt="Where are We?">
@@ -171,6 +178,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col mb-4">
                 <div class="card shadow p-3 mb-5 bg-white rounded">
                     <img src="resources/demo.png" class="card-img-top" alt="Demo our software">
@@ -182,6 +190,7 @@
                     </div>
                 </div>
             </div>
+
             <div class="col mb-4">
                 <div class="card shadow p-3 mb-5 bg-white rounded">
                     <img src="resources/download.png" class="card-img-top" alt="Download OpenMRS">
@@ -192,10 +201,12 @@
                     </div>
                 </div>
             </div>
-        </div>
 
-        <hr>
-        <br>
+        </div>
+        <!-- Cards -->
+
+        <hr><br>
+
         <!-- Video -->
         <div class="row no-gutters bg-light position-relative">
             <div class="col-md-6 mb-md-0 p-md-4" style="background-color: #F0F1F2;">
@@ -210,7 +221,42 @@
                 <a href="#" class="btn btn-primary stretched-link">Learn More</a>
             </div>
         </div>
+        <!-- Video -->
+
     </div>
+    <!-- Main Body -->
+
+    <br><br><br>
+
+    <!-- Quotes -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade container" data-ride="carousel">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active" data-interval="2000">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">Our rapidly evolving program in Western Kenya is committed to fully integrated and comprehensive health care services extending from villages to hospitals. Every part of our work utilizes a single shared infrastructure — OpenMRS. It
+                        has become an indispensable backbone of every aspect of our future.</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">Joe Mamlin, MD, Field Director, AMPATH</cite></footer>
+                </blockquote>
+            </div>
+
+            <div class="carousel-item" data-interval="2000">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">The OpenMRS community is really diverse — academics, software developers, and health care workers. Our interest in working together to save lives is what binds us together. </p>
+                    <footer class="blockquote-footer"><cite title="Source Title">Suranga Nath Kasthurirathne, Developer, Jembi Health Systems </cite></footer>
+                </blockquote>
+            </div>
+
+            <div class="carousel-item" data-interval="2000">
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">OpenMRS is used in 5 of the countries where we work to support clinical care, reporting and clinical research for HIV, MDR-TB and heart failure treatment.</p>
+                    <footer class="blockquote-footer"><cite title="Source Title">Partners in Health</cite></footer>
+                </blockquote>
+            </div>
+
+        </div>
+    </div>
+    <!-- Quotes -->
 
     <br><br><br>
 
@@ -219,6 +265,8 @@
         <div class="container" style="color: white;">
             <div class="row blog">
                 <hr class="in">
+
+                <!-- Blogs -->
                 <div class="col-sm">
                     <h3>Recent Blog Posts</h3>
                     <hr>
@@ -258,7 +306,36 @@
                         <p class="font-weight-lighter">June 4th, 2019</p>
                     </div>
 
+                    <!-- Stay Connected -->
+                    <div class="dropdown" style="margin-top: 10%;">
+                        <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Stay Connected
+                        </a>
+
+                        <form class="dropdown-menu p-4">
+
+                            <!-- Name -->
+                            <div class="form-group">
+                                <label for="exampleDropdownFormEmail2">Full Name</label>
+                                <input type="text" class="form-control" placeholder="Full Name">
+                            </div>
+
+                            <!-- Email -->
+                            <div class="form-group">
+                                <label for="exampleDropdownFormEmail2">Email address</label>
+                                <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                            </div>
+
+                            <!-- Submit Button -->
+                            <button type="submit" class="btn btn-primary">Sign up for Updates</button>
+
+                        </form>
+                    </div>
+                    <!-- Stay Connected -->
+
                 </div>
+
+                <!-- Other Sites -->
                 <div class="col-sm">
                     <h3>Other OpenMRS Sites</h3>
                     <hr>
@@ -312,14 +389,20 @@
                         <p class="font-weight-lighter">Automated unit testing and deployment.</p>
                     </div>
                 </div>
+                <!-- Other Sites -->
+
             </div>
         </div>
 
+        <!-- Copyright -->
         <div class="copyright font-weight-lighter">
             © 2004-2016 Copyright:
             <a href="#" style="color: white;"> OpenMRS Inc </a>
         </div>
+        <!-- Copyright -->
+
     </footer>
+    <!-- Footer -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js " integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
