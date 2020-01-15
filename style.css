@@ -1,0 +1,52 @@
+.footer {
+    background-color: #2196F3;
+}
+
+.copyright {
+    background-color: #1C78C2;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+
+.blog {
+    padding: 5%;
+}
+
+.blog-link {
+    margin-bottom: 10px;
+}
+
+.blog-link a {
+    color: white;
+}
+
+.site {
+    padding: 5%;
+}
+
+.site-link {
+    margin-bottom: 5px;
+}
+
+.site-link a {
+    color: white;
+}
+
+.social {
+    margin-bottom: 3%;
+}
+
+.social img {
+    max-width: 40px;
+    margin: 1%;
+}
+
+.social img:hover {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+    box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+}
